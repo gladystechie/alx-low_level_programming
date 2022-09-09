@@ -10,7 +10,7 @@
  * Return: 0
  */
 int main(void)
-I{
+{
 int n;
 
 srand(time(0));
