@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
  * print_diagonal - prints a diagonal
  * @n: parameter
@@ -27,6 +26,5 @@ void print_diagonal(int n)
 			putchar('\n');
 		}
 	}
-	putchar('\n');
+	putchar('\n')
 }
-	
