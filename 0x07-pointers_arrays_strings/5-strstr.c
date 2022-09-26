@@ -26,7 +26,7 @@ while (haystack [i])
 		
 	}
 	else
-		return (haystack + i);
+	return (haystack + i);
 	}
 	return (0);
 }
