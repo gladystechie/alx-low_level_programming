@@ -10,7 +10,6 @@
 void print_diagsums(int *a, int size)
 {
 	int i, j, p, l = 0, r = 0;
-
 	for (i = 0; i < size; i++)
 	{
 		p = (i *size) + i;
@@ -21,5 +20,5 @@ void print_diagsums(int *a, int size)
 		p = (j *size) + (size - 1 - j);
 		r += *(a + p);
 	}
-	printf('%i, %i\n', l, r);
+	printf("%i, %i\n", l, r);
 }
