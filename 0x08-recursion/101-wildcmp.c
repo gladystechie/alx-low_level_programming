@@ -9,8 +9,8 @@
 int wildcmp(char *sl, char *s2)
 {
 if (*s2 == '\0')
-	return (*s1 == '\0');
-if (*s2 == *sl)
+	return (*s2 == '\0');
+if (*s2 == *s1)
 	return (*s1 != '\0' && wildcmp(s1 + 1, s2 + 1));
 if (*s2 == '*')
 	return (wildcmp(s1, s2 + 1) || (*s1 != '\0' && wildcmp(s1 + 1, s2)));
