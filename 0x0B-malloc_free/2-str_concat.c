@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * str_concat - a function that concatenates two strings
- * @sl: First string
+ * @s1: First string
  * @s2: Second string
  *
  * Return: NULL in cae of failure, but pointer to new string in
@@ -20,7 +20,7 @@ if (s2 == NULL)
 
 for (index = 0; s1[index] || s2[index]; index++)
 	len++;
-concat_str = malloc(sizeof(char) *len);
+concat_str = malloc(sizeof(char) * len);
 
 if (concat_str == NULL)
 	return (NULL);
