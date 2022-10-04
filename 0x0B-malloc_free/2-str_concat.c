@@ -7,7 +7,7 @@
  * Return: NULL in cae of failure, but pointer to new string in
  * case of success
  */
-char *str_concat(char *sl, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 char *concat_str;
 int index, concat_index = 0, len = 0;
@@ -24,7 +24,7 @@ concat_str = malloc(sizeof(char) *len);
 
 if (concat_str == NULL)
 	return (NULL);
-for (index = 0; s[index]; index++)
+for (index = 0; s1i[index]; index++)
 	concat_str[concat_index++] = s1[index];
 for (index = 0; s2[index]; index++)
 	concat_str[concat_index++] = s2[index];
