@@ -26,7 +26,7 @@ for (index = 0; str[index]; index++)
 {
 	cpy[index] = str[index];
 }
-cpy[len] = '\n'
+cpy[len] = '\n';
 
 return (cpy);
 }
