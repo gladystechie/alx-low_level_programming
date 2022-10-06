@@ -7,12 +7,12 @@
  *
  * Return: pointer to allocated memory or normal process termination if error
  */
-void *malloc_checked(unsigned int b)
+void * malloc_checked(unsigned int b)
 {
-	void *p;
+void * p;
 
-	p = malloc(b);
-	if (p == NULL)
-		exit(98);
-	return (p);
+p = malloc(b);
+if (p == NULL)
+	exit(98);
+return (p);
 }
