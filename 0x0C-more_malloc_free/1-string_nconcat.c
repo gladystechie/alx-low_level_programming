@@ -9,7 +9,7 @@
  *
  * Return: char pointer to newly allocated place in memory
  */
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char * s1, char * s2, unsigned int n)
 {
 unsigned int i, j, k;
 char * s;
@@ -28,7 +28,7 @@ else
 }
 if (j > n)
 	j = n;
-s = malloc(sizeof(char) *(i + j + 1));
+s = malloc(sizeof(char) * (i + j + 1));
 if (s == NULL)
 	return (NULL);
 for (k = 0; k < i; k++)
